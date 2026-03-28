@@ -1,0 +1,11 @@
+cat > .gitignore << 'EOF'
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+.DS_Store
+*.log
+.vscode/settings.json
+EOF
